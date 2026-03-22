@@ -1,4 +1,4 @@
-function go() {
+function facebook() {
   window.location.href = "https://www.facebook.com";
 }
 function twitter() {
