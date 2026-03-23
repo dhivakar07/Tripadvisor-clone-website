@@ -223,7 +223,22 @@ body {
 
 .welcome__card__img {
     border-right: solid black 1px;
+    position: relative;
 
+}
+
+.welcome__card__img__tag {
+    padding: 10px;
+    border: solid black 2px;
+    border-radius: 20px;
+    background-color: #00eb5b;
+    color: black;
+    display: inline;
+    position: absolute;
+    z-index: 2;
+    left: 25px;
+    bottom: 20px;
+    font-weight: bold;
 }
 
 .welcome__card__content {
