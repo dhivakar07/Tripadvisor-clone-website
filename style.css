@@ -420,6 +420,7 @@ body {
 
 .business__card__img img {
     height: 410px;
+    width: 600px;
     margin-top: 5px;
 }
 
@@ -592,6 +593,7 @@ body {
 }
 
 .sponsor {
+    margin-bottom: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -610,7 +612,7 @@ body {
 }
 
 .sponsor__card__img img {
-    height: 520px;
+    height: 500px;
     width: 580px;
     margin-top: 5px;
 }
