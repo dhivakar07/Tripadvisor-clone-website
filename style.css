@@ -184,7 +184,8 @@ body {
     border-radius: 25px;
     font-size: 16px;
     font-weight: 700;
-    background-color: #00eb5b;
+    background-color: #016f2b;
+    color: white;
     border: solid #02772e 1px;
 }
 
@@ -202,8 +203,8 @@ body {
 }
 
 .welcome__card {
-    background-color: #00eb5b;
-    color: black;
+    background-color: #016f2b;
+    color: white;
     border-radius: 20px;
     height: 450px;
     width: 90%;
@@ -231,8 +232,8 @@ body {
     padding: 10px;
     border: solid black 2px;
     border-radius: 20px;
-    background-color: #00eb5b;
-    color: black;
+    background-color: #016f2b;
+    color: white;
     display: inline;
     position: absolute;
     z-index: 2;
@@ -352,7 +353,7 @@ body {
 }
 
 .explore__card {
-    height: 370px;
+    height: 350px;
     padding: 5px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -366,6 +367,7 @@ body {
     transition: 1s;
     opacity: 0.8;
     box-shadow: 0px 0px 10px rgb(128, 128, 128);
+    background-color: lightgray;
 }
 
 .explore__card__like {
@@ -497,7 +499,7 @@ body {
 }
 
 .beach__card {
-    height: 370px;
+    height: 350px;
     border-radius: 10px;
     padding: 5px;
     flex-grow: 1;
@@ -510,6 +512,7 @@ body {
     transition: 1s;
     opacity: 0.8;
     box-shadow: 0px 0px 10px rgb(128, 128, 128);
+    background-color: lightgray;
 }
 
 .beach__card__like {
@@ -590,6 +593,61 @@ body {
     bottom: 20px;
     left: 20px;
     z-index: 2;
+}
+
+.rental {
+    margin-top: 60px;
+}
+
+.rental h3,
+.rental p {
+    margin-left: 55px;
+    margin-bottom: 15px;
+}
+
+.rental__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0 50px;
+}
+
+.rental__card {
+    height: 310px;
+    border-radius: 10px;
+    padding: 5px;
+    flex-grow: 1;
+    flex-basis: 20%;
+    text-align: start;
+    position: relative;
+}
+
+.rental__card:hover {
+    cursor: pointer;
+    transition: 1s;
+    opacity: 0.8;
+    box-shadow: 0px 0px 10px rgb(128, 128, 128);
+    background-color: lightgray;
+}
+
+.rental__card img {
+    border-radius: 10px;
+    width: 100%;
+    height: 260px;
+    margin-bottom: 3px;
+}
+
+.rental__card h4 {
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 3px;
+}
+
+.rental__card p {
+    font-size: small;
+    margin: auto;
 }
 
 .sponsor {
@@ -676,7 +734,7 @@ body {
     justify-content: space-between;
     padding: 50px;
     height: 400px;
-    background-color: #002b11;
+    background-color: #016f2b;
     color: white;
 
 }
@@ -925,6 +983,15 @@ body {
         height: 250px;
     }
 
+    .rental__card {
+        flex-basis: 40%;
+        margin-bottom: 10px;
+    }
+
+    .rental__card h4 {
+        font-size: 15px;
+    }
+
     .welcome {
         display: none;
     }
@@ -1050,6 +1117,15 @@ body {
     .iconic__card img {
         width: 190px;
         height: 190px;
+    }
+
+    .rental__card {
+        flex-basis: 40%;
+        margin-bottom: 10px;
+    }
+
+    .rental__card h4 {
+        font-size: 12px;
     }
 
     .welcome {
