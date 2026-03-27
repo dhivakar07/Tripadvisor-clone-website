@@ -107,14 +107,12 @@ body {
 
 .navbar__new #one {
     position: absolute;
-    left: 120px;
-    bottom: 1px;
+    left: 150px;
 }
 
 .navbar__new #two {
     position: absolute;
-    right: 390px;
-    bottom: 1px;
+    right: 370px;
 }
 
 .box {
@@ -830,7 +828,8 @@ body {
 }
 
 .footer__two__s1__head {
-    display: flex;
+    margin-bottom: 50px;
+
 }
 
 .footer__two__s1__rights {
