@@ -22,10 +22,9 @@ body {
     z-index: 100;
 }
 
-.navbar__logo {
-    width: 220px;
-    height: 80px;
-    margin-left: 40px;
+.navbar h1 {
+    color: #016f2b;
+    margin-left: 30px;
 }
 
 .navbar__ai__btn {
